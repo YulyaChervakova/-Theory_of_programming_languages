@@ -1,0 +1,21 @@
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+.conteiner{
+ display: block;
+ max-width: 1400px;
+ margin: auto;
+ background-color: rgb(247, 255, 203);
+
+}
+header {
+    border: 1px inset blue;
+    background-color: rgb(75, 2, 0);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+}
