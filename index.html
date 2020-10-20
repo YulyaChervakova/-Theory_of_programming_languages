@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Лабораторная работа</title>
     <link rel="stylesheet" href="style.css">
- 
+
 </head>
+
 <body>
     <div class="conteiner">
-      <header>
-          <h1>Лабораторная работа</h1>
-      </header>  
+        <header>
+            <h1>Лабораторная работа 1</h1>
+        </header>
+        <main>
+            
+            <div id="div">
+                <div class='left'><input id="sequence" type="text"
+                        onkeyup="this.value = this.value.replace(/[^0-1'%']/g,'')"></div>
+                <div class='left'> <button onclick="verify();">Вычислить!</button></div>
+                <div id="out2" class='left'></div>
+            </div> 
+            <div id='div2'>
+                <img src="auto2.png" alt="auto">
+                <img src="auto.png" alt="auto">
+            </div>
+
+        </main>
     </div>
-    
+    <script src="JS.js"></script>
 </body>
+
 </html>

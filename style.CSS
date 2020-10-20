@@ -1,14 +1,14 @@
 
 body{
     margin: 0;
-    background-color: antiquewhite;
+    background-color: antiquewhite;  
 }
 .conteiner{
  display: block;
  max-width: 1400px;
  margin: auto;
  background-color: rgb(247, 255, 203);
-
+ height: 100vh
 }
 header {
     border: 1px inset blue;
@@ -19,3 +19,52 @@ header {
     justify-content: center;
     color:rgb(255, 255, 255);
 }
+img {
+    border: 2px solid #00082c;
+    width: 63%;
+    height: 63%;
+   }
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+   padding-top: 30px;
+}
+
+#div{ 
+    display: block;
+    flex-direction: column;
+    padding: 40px 20px 40px 40px;
+    margin-left: 150px;
+    border: none;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    border: 4px double black;
+}
+#out2{
+    display: block;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    padding-left: 10px;
+}
+button {
+    font-size: 100%;
+    background-color: #4CAF50; /* Green */
+    border: 7px  rgb(0, 44, 24);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    transition: 0.2s;
+}
+button:active { 
+    background-color: rgb(139, 248, 117);
+    transition: color 0s 
+    }
+
